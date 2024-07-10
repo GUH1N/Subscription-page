@@ -1,0 +1,52 @@
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    border: 5px solid black;
+    padding: 10px;
+    width: 60%;
+    margin: 100px;
+}
+
+.container_1,.container_3
+{
+    background-color: antiquewhite;
+}
+
+.container_1,.container_2,.container_3
+{
+    padding: 10px;
+    border: 2px solid antiquewhite;
+}
+
+.text
+{
+    width: 97%;
+    margin: 10px;
+}
+
+button
+{
+    background-color:cadetblue;
+    width: 97%;
+}
+
+button:hover
+{
+    background-color: aliceblue;
+}
+
+input:hover
+{
+    background-color: antiquewhite;
+}
